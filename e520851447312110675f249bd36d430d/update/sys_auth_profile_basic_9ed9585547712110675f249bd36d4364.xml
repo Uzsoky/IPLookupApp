@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic">
+    <sys_auth_profile_basic action="INSERT_OR_UPDATE">
+        <name>Bori</name>
+        <password>﷞﷟﷒76f300bd47e02110675f249bd36d4311﷬﷔1﷬﷭IR3dffV6n5HDPyJZfktp4w==MFnSNs8w6gNrzY99y5NDP5GSeJtXBeE=﷮﷯</password>
+        <sys_class_name>sys_auth_profile_basic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-24 11:03:48</sys_created_on>
+        <sys_id>9ed9585547712110675f249bd36d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bori</sys_name>
+        <sys_package display_value="IPLookup" source="x_928926_iplookup">e520851447312110675f249bd36d430d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPLookup">e520851447312110675f249bd36d430d</sys_scope>
+        <sys_update_name>sys_auth_profile_basic_9ed9585547712110675f249bd36d4364</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-24 11:03:48</sys_updated_on>
+        <username>System Administrator</username>
+    </sys_auth_profile_basic>
+</record_update>

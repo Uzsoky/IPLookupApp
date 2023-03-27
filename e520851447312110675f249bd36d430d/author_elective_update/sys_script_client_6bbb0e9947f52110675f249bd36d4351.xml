@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Challenge - Request Specific Field Data</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>GetIPInfoField</name>
+        <order/>
+        <script><![CDATA[function recordData (data) {
+	console.log(data.ip, data.country)
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-24 19:31:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6bbb0e9947f52110675f249bd36d4351</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>GetIPInfoField</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IPLookup" source="x_928926_iplookup">e520851447312110675f249bd36d430d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPLookup">e520851447312110675f249bd36d430d</sys_scope>
+        <sys_update_name>sys_script_client_6bbb0e9947f52110675f249bd36d4351</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-24 19:38:48</sys_updated_on>
+        <table/>
+        <type/>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IPLookup">e520851447312110675f249bd36d430d</application>
+        <file_path/>
+        <instance_id>a3f3e709db0bbb4091232f17d4961924</instance_id>
+        <instance_name>dev90390</instance_name>
+        <name>sys_script_client_6bbb0e9947f52110675f249bd36d4351</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Challenge - Request Specific Field Data&lt;/description&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;GetIPInfoField&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function recordData (data) {
+	console.log(data.ip, data.country)
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-24 19:31:59&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6bbb0e9947f52110675f249bd36d4351&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetIPInfoField&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="IPLookup" source="x_928926_iplookup"&gt;e520851447312110675f249bd36d430d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="IPLookup"&gt;e520851447312110675f249bd36d430d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_6bbb0e9947f52110675f249bd36d4351&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-24 19:38:48&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1837398998</payload_hash>
+        <record_name>GetIPInfoField</record_name>
+        <reverted_from/>
+        <source>e120459847312110675f249bd36d43c5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-24 19:38:48</sys_created_on>
+        <sys_id>097012dd47f52110675f249bd36d4307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18715217bac0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-24 19:38:48</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>417012dd90f521109a4cfbee40682107</update_guid>
+        <update_guid_history>417012dd90f521109a4cfbee40682107:-1837398998,28301e5d80f52110b3bcf7a01921d414:1206260527,75101e99bef52110e20f83b8defdbe60:-1007449432,ddeece9977f52110e9b68e11557f32f8:-362560128</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-27 06:01:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>db1355667fb8415385fb25ea383716a1</sys_id>
+        <sys_metadata>6bbb0e9947f52110675f249bd36d4351</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetIPInfoField</sys_name>
+        <sys_package display_value="IPLookup" source="x_928926_iplookup">e520851447312110675f249bd36d430d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IPLookup">e520851447312110675f249bd36d430d</sys_scope>
+        <sys_scope_delete display_value="">250dbbad3dbb4976b1efd25eb120f429</sys_scope_delete>
+        <sys_update_name>sys_script_client_6bbb0e9947f52110675f249bd36d4351</sys_update_name>
+        <sys_update_version display_value="sys_script_client_6bbb0e9947f52110675f249bd36d4351">097012dd47f52110675f249bd36d4307</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-27 06:01:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
