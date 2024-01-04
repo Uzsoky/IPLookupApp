@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_openapi">
+    <sys_openapi action="INSERT_OR_UPDATE">
+        <description/>
+        <display_name>Swagger Petstore - 1.0.0</display_name>
+        <name>Swagger Petstore</name>
+        <namespace>SwaggerPetstore100</namespace>
+        <serialized_openapi>{"fSchemas":[{"fName":"Pet","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":["id","name"],"fEnum":[],"fType":"object","fProperties":[{"fName":"id","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fType":"integer","fProperties":[],"fOneOf":[],"fFormat":"int64","fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"integer"},{"fName":"name","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fType":"string","fProperties":[],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"string"},{"fName":"tag","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fType":"string","fProperties":[],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"string"}],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"},{"fName":"Pets","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fMaxItems":100,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fType":"array","fProperties":[{"fReferencedName":"#/components/schemas/Pet","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fProperties":[],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"},{"fName":"Error","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":["code","message"],"fEnum":[],"fType":"object","fProperties":[{"fName":"code","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fType":"integer","fProperties":[],"fOneOf":[],"fFormat":"int32","fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"integer"},{"fName":"message","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fType":"string","fProperties":[],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"string"}],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}],"fParameters":[],"fHeaders":[],"fRequests":[],"fResponses":[]}</serialized_openapi>
+        <sys_class_name>sys_openapi</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-31 00:52:34</sys_created_on>
+        <sys_id>1d0f16fbc35bf5502e5e242bb00131cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Swagger Petstore - 1.0.0</sys_name>
+        <sys_package display_value="Example AppUB" source="x_928926_example_a">39c60cdbc39b35502e5e242bb00131cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Example AppUB">39c60cdbc39b35502e5e242bb00131cf</sys_scope>
+        <sys_update_name>sys_openapi_1d0f16fbc35bf5502e5e242bb00131cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-31 00:52:34</sys_updated_on>
+        <version>1.0.0</version>
+    </sys_openapi>
+</record_update>
